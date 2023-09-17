@@ -1,3 +1,21 @@
 :root {
-  
+  /* colors */
+  --color-background: #3F424E;
+  --color-buttons: #5B77EE;
+  --color-light: #ffffff;
+  --color-interactive: #ffffff;
+
+  /* Width */
+  --width-desktop-medium: 1440px;
+  --width-desktop-small: 1024px;
+  --width-mobile-max: 540px;
+  --width-mobile-small: 500px;
+
+  /* media padding */
+  /* 30px / 1440px = 0.021 */
+  /* 1440px = 100vw => 30px = 0.021vw */
+  --padding-content-desktop: 0.021vw; 
+  /* 15px / 540px = 0.028 */
+  /* 540px = 100vw => 15px = 0.028vw */
+  --padding-content-mobile: 0.028vw;
 }

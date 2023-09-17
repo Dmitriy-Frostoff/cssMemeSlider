@@ -1,0 +1,7 @@
+@import './src/styles/base/_normalize.css';
+@import './src/styles/abstract/_constants.css';
+@import './src/styles/abstract/_animations.css';
+@import './src/styles/base/_typography.css';
+@import './src/styles/base/_common.css';
+@import './src/styles/layout/_content-structure.css';
+/* @import './src/styles/components/'; */

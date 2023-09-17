@@ -1,0 +1,276 @@
+* {
+  /* Position */
+
+  /* block-model */
+  box-sizing: border-box;
+  /* Typography */
+
+  /* Decoration */
+
+  /* Animation */
+
+  /* Various */
+
+}
+
+html {
+  /* Position */
+
+  /* block-model */
+  scroll-behavior: smooth;
+  /* Typography */
+
+  /* Decoration */
+
+  /* Animation */
+
+  /* Various */
+
+}
+
+body {
+  /* Position */
+
+  /* block-model */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0;
+
+  /* Typography */
+  font-family: var(--inter-font-family);
+  /* Decoration */
+
+  /* Animation */
+
+  /* Various */
+  
+}
+
+
+.code, p, pre, nav, ul, li, h1, h2, h3, h4, h5, a, img {
+  /* Position */
+
+  /* block-model */
+  padding: 0;
+  margin: 0;
+
+  /* Typography */
+
+  /* Decoration */
+
+  /* Animation */
+
+  /* Various */
+
+}
+
+li {
+  /* Position */
+
+  /* block-model */
+
+  /* Typography */
+
+  /* Decoration */
+ list-style: none;
+  /* Animation */
+
+  /* Various */
+
+}
+
+a {
+  /* Position */
+
+  /* block-model */
+  display: inline-block;
+
+  /* Typography */
+  color: var(--color-light);
+  /* Decoration */
+  text-decoration: none;
+  cursor: pointer;
+ 
+  /* Animation */
+
+  /* Various */
+  
+}
+
+a:visited {
+  /* Position */
+
+  /* block-model */
+
+  /* Typography */
+  color: var(--color-light);
+  
+  /* Decoration */
+ 
+  /* Animation */
+
+  /* Various */
+
+}
+
+img {
+  /* Position */
+
+  /* block-model */
+  display: block;
+  /* Typography */
+
+  /* Decoration */
+
+  /* Animation */
+
+  /* Various */
+
+}
+
+.container {
+  /* Position */
+
+  /* block-model */
+  margin: 0 auto;
+ 
+  /* Typography */
+
+  /* Decoration */
+
+  /* Animation */
+
+  /* Various */
+  
+}
+
+@media (max-width: 1440px) {
+  .container {
+    padding: 0 var(--padding-content-desktop);
+  }
+}
+
+@media (max-width: 1023px) {
+  .container {
+    padding: 0 var(--padding-content-mobile);
+  }
+}
+
+.main {
+  /* Position */
+ 
+  /* block-model */
+ 
+  /* Typography */
+ 
+  /* Decoration */
+
+  /* Animation */
+ 
+  /* Various */
+ 
+}
+
+.main__container {
+  /* Position */
+
+  /* block-model */
+
+  /* Typography */
+
+  /* Decoration */
+
+  /* Animation */
+
+  /* Various */
+ 
+}
+
+@media (max-width: 1440px) {
+  .title-h1 {
+    /* Position */
+
+    /* block-model */
+
+    /* Typography */
+    font-family: var(--permanent-marker-font-family);
+    font-size: var(--title-h1_desktop);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    /* Decoration */
+    color: var(--color-light);
+
+    /* Animation */
+
+    /* Various */
+
+  }
+}
+
+@media (max-width: 1023px) {
+  .title-h1 {
+    /* Position */
+
+    /* block-model */
+
+    /* Typography */
+    font-size: var(--title-h1_mobile);
+
+    /* Decoration */
+
+    /* Animation */
+
+    /* Various */
+
+  }
+}
+
+@media (max-width: 1440px) {
+  .paragraph-l {
+    /* Position */
+
+    /* block-model */
+
+    /* Typography */
+    font-family: var(--inter-font-family);
+    font-size: var(--text-fsize_desktop);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    /* Decoration */
+    color: var(--color-light);
+
+    /* Animation */
+
+    /* Various */
+
+  }
+}
+
+@media (max-width: 1023px) {
+  .paragraph-l {
+    /* Position */
+
+    /* block-model */
+
+    /* Typography */
+    font-size: var(--text-fsize_mobile);
+
+    /* Decoration */
+
+    /* Animation */
+
+    /* Various */
+
+  }
+}
+
+/* ============================================================================================================== */
+/* =========================================== modificators!!! Priority over above ============================== */
+/* ============================================================================================================== */
