@@ -1,0 +1,170 @@
+.footer {
+  /* Position */
+  
+  /* block-model */
+  width: 100%;
+  /* Typography */
+
+  /* Decoration */
+  background: var(--color-background);
+  /* Animation */
+
+  /* Various */
+
+}
+
+.footer__list {
+  /* Position */
+  
+  /* block-model */
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  padding: calc(var(--padding-content-desktop) / 2) 0;
+  /* Typography */
+
+  /* Decoration */
+  
+  /* Animation */
+
+  /* Various */
+
+}
+
+.footer__item {
+  /* Position */
+  
+  /* block-model */
+  
+  /* Typography */
+  color: var(--color-light);
+  /* Decoration */
+
+  /* Animation */
+  
+  /* Various */
+
+}
+
+.footer__link, .footer__link:hover, .footer__link:hover .footer__icon, .footer__link:active, .footer__link:active .footer__icon, .footer__icon:hover {
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.footer__icon, .github-text {
+  pointer-events: none;
+}
+
+.footer__link, .footer__link:hover, .footer__link:hover .footer__icon, .footer__link:active, .footer__link:active .footer__icon, .footer__icon, .footer__icon:hover {
+  transition: all 0.7s ease 0s;
+}
+
+.footer__link:hover, .footer__link:hover .footer__icon, .footer__link:active, .footer__link:active .footer__icon, .footer__icon:hover {
+  animation: pulsation 1s infinite normal ease 0s;
+}
+
+.footer__link {
+  /* Position */
+  
+  /* block-model */
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+  /* Typography */
+
+  /* Decoration */
+
+  /* Animation */
+  
+  /* Various */
+
+}
+
+.footer__link:hover, .footer__link:hover .footer__icon, .footer__link:active, .footer__link:active .footer__icon {
+  color: var(--color-highlight-light);
+  fill: var(--color-highlight-light);
+}
+
+.footer__icon {
+  /* Position */
+  
+  /* block-model */
+
+  /* Typography */
+
+  /* Decoration */
+  fill: var(--color-light);
+
+  /* Animation */
+
+  /* Various */
+
+}
+
+.footer__icon:hover {
+  fill: var(--color-highlight-light);
+}
+
+.rsschool-logo {
+  /* Position */
+  
+  /* block-model */
+  width: 5vw;
+  /* Typography */
+  text-align: right;
+  /* Decoration */
+  fill: var(--color-light);
+  /* Animation */
+
+  /* Various */
+
+}
+
+@media (max-width: 1023px) {
+  .rsschool-logo {
+    /* Position */
+    
+    /* block-model */
+    width: 13vw;
+    /* Typography */
+    text-align: right;
+    /* Decoration */
+    fill: var(--color-light);
+    /* Animation */
+  
+    /* Various */
+  
+  }
+}
+
+.github-text {
+  /* Position */
+  
+  /* block-model */
+  padding-top: 0.3vw;
+  /* Typography */
+
+  /* Decoration */
+
+  /* Animation */
+
+  /* Various */
+
+}
+
+@media (max-width: 1023px) {
+  .github-text {
+    /* Position */
+    
+    /* block-model */
+    padding-top: 0.55vw;
+    /* Typography */
+  
+    /* Decoration */
+  
+    /* Animation */
+  
+    /* Various */
+  
+  }
+}

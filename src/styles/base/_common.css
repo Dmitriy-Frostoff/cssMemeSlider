@@ -147,10 +147,8 @@ img {
   
 }
 
-@media (max-width: 1440px) {
-  .container {
-    padding: 0 var(--padding-content-desktop);
-  }
+.container {
+  padding: 0 var(--padding-content-desktop);
 }
 
 @media (max-width: 1023px) {
@@ -189,28 +187,27 @@ img {
  
 }
 
-@media (max-width: 1440px) {
-  .title-h1 {
-    /* Position */
+.title-h1 {
+  /* Position */
 
-    /* block-model */
+  /* block-model */
 
-    /* Typography */
-    font-family: var(--permanent-marker-font-family);
-    font-size: var(--title-h1_desktop);
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
+  /* Typography */
+  font-family: var(--permanent-marker-font-family);
+  font-size: var(--title-h1_desktop);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 
-    /* Decoration */
-    color: var(--color-light);
+  /* Decoration */
+  color: var(--color-light);
 
-    /* Animation */
+  /* Animation */
 
-    /* Various */
+  /* Various */
 
-  }
 }
+
 
 @media (max-width: 1023px) {
   .title-h1 {
@@ -230,27 +227,25 @@ img {
   }
 }
 
-@media (max-width: 1440px) {
-  .paragraph-l {
-    /* Position */
+.paragraph-l {
+  /* Position */
 
-    /* block-model */
+  /* block-model */
 
-    /* Typography */
-    font-family: var(--inter-font-family);
-    font-size: var(--text-fsize_desktop);
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
+  /* Typography */
+  font-family: var(--inter-font-family);
+  font-size: var(--text-fsize_desktop);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 
-    /* Decoration */
-    color: var(--color-light);
+  /* Decoration */
+  color: var(--color-light);
 
-    /* Animation */
+  /* Animation */
 
-    /* Various */
+  /* Various */
 
-  }
 }
 
 @media (max-width: 1023px) {
@@ -274,3 +269,18 @@ img {
 /* ============================================================================================================== */
 /* =========================================== modificators!!! Priority over above ============================== */
 /* ============================================================================================================== */
+
+.text_blinking {
+  /* Position */
+
+  /* block-model */
+
+  /* Typography */
+
+  /* Decoration */
+
+  /* Animation */
+  animation: text-blinking 3s 0s infinite alternate-reverse;
+  /* Various */
+
+}

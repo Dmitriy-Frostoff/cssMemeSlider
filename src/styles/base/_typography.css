@@ -3,9 +3,9 @@
   --inter-font-family: 'Inter', sans-serif;
   --permanent-marker-font-family: 'Permanent Marker', cursive;
   /* font-size */
-  --title-h1_desktop: 2rem;
-  --title-h1_mobile: 1.5rem;
+  --title-h1_desktop: 2.5vh;
+  --title-h1_mobile: 4vh;
   
-  --text-fsize_desktop: 0.875rem;
-  --text-fsize_mobile: 0.75rem;
+  --text-fsize_desktop: 1.5vh;
+  --text-fsize_mobile: 2vh;
 }

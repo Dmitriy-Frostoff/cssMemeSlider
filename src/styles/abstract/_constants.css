@@ -4,6 +4,11 @@
   --color-buttons: #5B77EE;
   --color-light: #ffffff;
   --color-interactive: #ffffff;
+  --color-highlight-light: #FFCD04;
+
+  /* for animations */
+  --blink-one: #60C738;
+  --blink-two: #9F38C7;
 
   /* Width */
   --width-desktop-medium: 1440px;
@@ -12,10 +17,10 @@
   --width-mobile-small: 500px;
 
   /* media padding */
-  /* 30px / 1440px = 0.021 */
-  /* 1440px = 100vw => 30px = 0.021vw */
-  --padding-content-desktop: 0.021vw; 
-  /* 15px / 540px = 0.028 */
-  /* 540px = 100vw => 15px = 0.028vw */
-  --padding-content-mobile: 0.028vw;
+  /* 100vw === 1440px => 1vw === 14.4px */
+  /* 30px / 14.4px = 2.1wv */
+  --padding-content-desktop: 2.1vw; 
+  /* 100vw === 540px => 1vw === 5.4px */
+  /* 15px / 5.4px = 2.8wv */
+  --padding-content-mobile: 2.8vw;
 }
