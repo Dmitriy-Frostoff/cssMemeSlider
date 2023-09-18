@@ -33,7 +33,7 @@
   /* Various */
 
 }
-.carousel__content-wrapper, .carousel__content, .carousel__button-inner, .carousel__button-inner:hover {
+.carousel__content-wrapper, .carousel__content, .carousel__button-inner, .carousel__button-inner:hover, .carousel__content-description {
   transition: all 0.7s ease 0s;
 }
 
@@ -44,6 +44,7 @@
   max-width: 90vw;
   padding-top: 2vh;
   padding-bottom: 2vh;
+  row-gap: 1vh;
   overflow: hidden;
 
   /* Typography */
@@ -62,7 +63,6 @@
 
     /* block-model */
     flex-direction: column;
-    row-gap: 1vh;
     /* Typography */
 
     /* Decoration */
@@ -130,6 +130,8 @@
     /* Position */
   
     /* block-model */
+    max-width: 40vw;
+    overflow: hidden;
     order: 2;
     flex-basis: auto;
     /* Typography */
@@ -153,7 +155,7 @@
   /* Typography */
 
   /* Decoration */
-  transform: translateX(5vw);
+  transform: translateX(0);
   /* Animation */
 
   /* Various */
