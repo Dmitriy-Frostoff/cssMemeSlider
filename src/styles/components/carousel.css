@@ -287,17 +287,19 @@
   /* Typography */
 
   /* Decoration */
+  appearance: none;
   background-color: var(--color-buttons);
+  border: 0.3vw solid var(--color-buttons);
   border-radius: 50%;
   pointer-events: none;
-  accent-color: var(--color-buttons);
+  /* accent-color: var(--color-buttons); */
   /* Animation */
 
   /* Various */
 
 }
 
-.carousel__button:hover > .carousel__button-inner, .carousel__button-inner:checked {
+.carousel__button-inner:hover {
   /* Position */
 
   /* block-model */
@@ -305,8 +307,40 @@
   /* Typography */
 
   /* Decoration */
-  background-color: var(--color-buttons);
-  accent-color: var(--color-buttons);
+  border-color: var(--color-interactive);
+  background-color: var(--color-interactive);
+  /* Animation */
+
+  /* Various */
+
+}
+
+.carousel__button-inner:active, .carousel__button-inner:checked {
+  /* Position */
+
+  /* block-model */
+
+  /* Typography */
+
+  /* Decoration */
+  background-color: var(--color-background);
+  border-color: var(--color-buttons);
+  /* Animation */
+
+  /* Various */
+
+}
+
+.carousel__button-inner:active:hover, .carousel__button-inner:checked:hover {
+  /* Position */
+
+  /* block-model */
+
+  /* Typography */
+
+  /* Decoration */
+  background-color: var(--color-background);
+  border-color: var(--color-interactive);
   /* Animation */
 
   /* Various */
