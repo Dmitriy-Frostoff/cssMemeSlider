@@ -182,8 +182,6 @@
   /* Position */
 
   /* block-model */
-  /* 100vw === 1440px => 1vw === 14.4px*/
-  /* 450px / 14.4px = 31.25vw */
   width: 90vw;
   height: 50vh;
   /* Typography */
