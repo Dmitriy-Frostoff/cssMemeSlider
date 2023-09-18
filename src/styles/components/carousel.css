@@ -184,7 +184,7 @@
   /* block-model */
   /* 100vw === 1440px => 1vw === 14.4px*/
   /* 450px / 14.4px = 31.25vw */
-  width: 80vw;
+  width: 90vw;
   height: 50vh;
   /* Typography */
 
@@ -194,25 +194,6 @@
 
   /* Various */
   
-}
-
-@media (max-width: 1023px) {
-  .carousel__image {
-    /* Position */
-
-    /* block-model */
-    /* 100vw === 540px => 1vw === 5.4px*/
-    /* 450px / 5.4px = 83vw */
-    width: 83vw;
-
-    /* Typography */
-
-    /* Decoration */
-
-    /* Animation */
-
-    /* Various */
-  }
 }
 
 .carousel__image[data-carousel-image="image__1"] {

@@ -1,11 +1,11 @@
-/* first image has translateX(5vw) */
-/* image container width 80vw */
+/* first image has translateX(0) */
+/* image container width 90vw */
 /* column gap between images 20vw */
-/* => for sliding next image motion === 80vw + 20 vw - 5 vw = 95vw*/
-/* => as sliding to the left so: -95vw*/
+/* => for sliding next image motion === 90vw + 20 vw - 0 vw = 110vw*/
+/* => as sliding to the left so: -110vw*/
 
 .carousel__buttons-container:has(#btn__0:checked) ~ .carousel__content {
-  transform: translateX(5vw);
+  transform: translateX(0);
 }
 
 .carousel__buttons-container:has(#btn__0:checked) ~ .carousel__description-wrapper > .carousel__content-description {
@@ -13,7 +13,7 @@
 }
 
 .carousel__buttons-container:has(#btn__1:checked) ~ .carousel__content {
-  transform: translateX(calc((-80vw - 20vw + 5vw) * 1));
+  transform: translateX(calc((-90vw - 20vw) * 1));
 }
 
 .carousel__buttons-container:has(#btn__1:checked) ~ .carousel__description-wrapper > .carousel__content-description {
@@ -21,7 +21,7 @@
 }
 
 .carousel__buttons-container:has(#btn__2:checked) ~ .carousel__content {
-  transform: translateX(calc((-80vw - 20vw + 5vw) * 2));
+  transform: translateX(calc((-90vw - 20vw) * 2));
 }
 
 .carousel__buttons-container:has(#btn__2:checked) ~ .carousel__description-wrapper > .carousel__content-description {
@@ -29,7 +29,7 @@
 }
 
 .carousel__buttons-container:has(#btn__3:checked) ~ .carousel__content {
-  transform: translateX(calc((-80vw - 20vw + 5vw) * 3));
+  transform: translateX(calc((-90vw - 20vw) * 3));
 }
 
 .carousel__buttons-container:has(#btn__3:checked) ~ .carousel__description-wrapper > .carousel__content-description {
@@ -37,7 +37,7 @@
 }
 
 .carousel__buttons-container:has(#btn__4:checked) ~ .carousel__content {
-  transform: translateX(calc((-80vw - 20vw + 5vw) * 4));
+  transform: translateX(calc((-90vw - 20vw) * 4));
 }
 
 .carousel__buttons-container:has(#btn__4:checked) ~ .carousel__description-wrapper > .carousel__content-description {
