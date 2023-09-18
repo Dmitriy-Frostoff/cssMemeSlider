@@ -1,0 +1,355 @@
+.carousel__container {
+  /* Position */
+
+  /* block-model */
+  width: 100%;
+  align-items: center;
+  row-gap: 5vw;
+  /* Typography */
+
+  /* Decoration */
+  border: 1vw solid var(--color-border);
+  border-radius: 1vw;
+  /* Animation */
+
+  /* Various */
+
+}
+
+.carousel__wrapper {
+  /* Position */
+
+  /* block-model */
+  width: 100%;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  /* Typography */
+
+  /* Decoration */
+
+  /* Animation */
+
+  /* Various */
+
+}
+.carousel__content-wrapper, .carousel__content, .carousel__button-inner, .carousel__button-inner:hover {
+  transition: all 0.7s ease 0s;
+}
+
+.carousel__content-wrapper {
+  /* Position */
+
+  /* block-model */
+  max-width: 90vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  overflow: hidden;
+
+  /* Typography */
+
+  /* Decoration */
+
+  /* Animation */
+
+  /* Various */
+
+}
+
+@media (max-width: 1023px) {
+  .carousel__content-wrapper {
+    /* Position */
+
+    /* block-model */
+    flex-direction: column;
+    row-gap: 1vh;
+    /* Typography */
+
+    /* Decoration */
+
+    /* Animation */
+
+    /* Various */
+
+  }
+}
+
+.carousel__content {
+  /* Position */
+
+  /* block-model */
+  column-gap: 20vw;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  /* Typography */
+
+  /* Decoration */
+  transform: translateX(5vw);
+  /* Animation */
+
+  /* Various */
+
+}
+
+@media (max-width: 1023px) {
+  .carousel__content {
+    /* Position */
+
+    /* block-model */
+    align-items: center;
+    /* Typography */
+
+    /* Decoration */
+
+    /* Animation */
+
+    /* Various */
+  }
+}
+
+.carousel__description-wrapper {
+  /* Position */
+
+  /* block-model */
+  max-width: 40vw;
+  overflow: hidden;
+  order: 1;
+  flex-basis: 50%;
+  /* Typography */
+
+  /* Decoration */
+
+  /* Animation */
+
+  /* Various */
+
+}
+
+@media (max-width: 1023px) {
+  .carousel__description-wrapper {
+    /* Position */
+  
+    /* block-model */
+    order: 2;
+    flex-basis: auto;
+    /* Typography */
+  
+    /* Decoration */
+  
+    /* Animation */
+  
+    /* Various */
+  
+  }
+}
+
+.carousel__content-description {
+  /* Position */
+
+  /* block-model */
+  column-gap: 20vw;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  /* Typography */
+
+  /* Decoration */
+  transform: translateX(5vw);
+  /* Animation */
+
+  /* Various */
+
+}
+
+@media (max-width: 1023px) {
+  .carousel__content-description {
+    /* Position */
+
+    /* block-model */
+
+    /* Typography */
+
+    /* Decoration */
+
+    /* Animation */
+
+    /* Various */
+  }
+}
+
+.carousel__image {
+  /* Position */
+
+  /* block-model */
+  /* 100vw === 1440px => 1vw === 14.4px*/
+  /* 450px / 14.4px = 31.25vw */
+  width: 80vw;
+  height: 50vh;
+  /* Typography */
+
+  /* Decoration */
+
+  /* Animation */
+
+  /* Various */
+  
+}
+
+@media (max-width: 1023px) {
+  .carousel__image {
+    /* Position */
+
+    /* block-model */
+    /* 100vw === 540px => 1vw === 5.4px*/
+    /* 450px / 5.4px = 83vw */
+    width: 83vw;
+
+    /* Typography */
+
+    /* Decoration */
+
+    /* Animation */
+
+    /* Various */
+  }
+}
+
+.carousel__image[data-carousel-image="image__1"] {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../../assets/images/memes/1\ Little\ guy\ and\ frontend\ at\ first.png');  
+}
+
+.carousel__image[data-carousel-image="image__2"] {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../../assets/images/memes/2\ technical\ screning\ experienced\ person.jpg');  
+}
+
+.carousel__image[data-carousel-image="image__3"] {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../../assets/images/memes/3\ price\ for\ the\ book\ about\ JS.png');  
+}
+
+.carousel__image[data-carousel-image="image__4"] {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../../assets/images/memes/4\ bug\ struggling.png');  
+}
+
+.carousel__image[data-carousel-image="image__5"] {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../../assets/images/memes/5\ difference\ beetween\ junior\ and\ middle.png');  
+}
+
+.carousel__buttons-container {
+  /* Position */
+
+  /* block-model */
+  height: 3vh;
+  order: 2;
+  flex-basis: auto;
+  /* Typography */
+
+  /* Decoration */
+
+  /* Animation */
+
+  /* Various */
+  
+}
+
+@media (max-width: 1023px) {
+  .carousel__buttons-container {
+    /* Position */
+
+    /* block-model */
+    order: 1;
+    padding-left: calc(100vw/2 - 10vw);
+    /* Typography */
+
+    /* Decoration */
+
+    /* Animation */
+
+    /* Various */
+    
+  }
+}
+
+.carousel__button {
+  /* Position */
+
+  /* block-model */
+  width: 3vw;
+  height: 3vh;
+  align-items: center;
+  justify-content: center;
+  /* Typography */
+
+  /* Decoration */
+  border: 0.5vw soild var(--color-buttons);
+  cursor: pointer;
+  /* Animation */
+
+  /* Various */
+  
+}
+
+.carousel__button-inner {
+  /* Position */
+
+  /* block-model */
+  width: 2vw;
+  height: 2vw;
+  /* Typography */
+
+  /* Decoration */
+  background-color: var(--color-buttons);
+  border-radius: 50%;
+  pointer-events: none;
+  accent-color: var(--color-buttons);
+  /* Animation */
+
+  /* Various */
+
+}
+
+.carousel__button:hover > .carousel__button-inner, .carousel__button-inner:checked {
+  /* Position */
+
+  /* block-model */
+
+  /* Typography */
+
+  /* Decoration */
+  background-color: var(--color-buttons);
+  accent-color: var(--color-buttons);
+  /* Animation */
+
+  /* Various */
+
+}
+
+.carousel__button-inner:hover {
+  background-color: var(--color-interactive); 
+
+}
+
+.carousel__button-inner_active {
+  /* Position */
+
+  /* block-model */
+
+  /* Typography */
+
+  /* Decoration */
+  border-color: var(--color-interactive);
+  pointer-events: none;
+
+  /* Animation */
+
+  /* Various */
+
+}

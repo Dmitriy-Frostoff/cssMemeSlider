@@ -136,6 +136,7 @@ img {
 
   /* block-model */
   margin: 0 auto;
+  padding: 0 var(--padding-content-desktop);
  
   /* Typography */
 
@@ -147,25 +148,21 @@ img {
   
 }
 
-.container {
-  padding: 0 var(--padding-content-desktop);
-}
-
 @media (max-width: 1023px) {
   .container {
     padding: 0 var(--padding-content-mobile);
   }
 }
 
-.main {
+main {
   /* Position */
  
   /* block-model */
- 
+  height: 80vh;
   /* Typography */
  
   /* Decoration */
-
+  background: var(--color-background);
   /* Animation */
  
   /* Various */
@@ -176,7 +173,8 @@ img {
   /* Position */
 
   /* block-model */
-
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   /* Typography */
 
   /* Decoration */
@@ -281,6 +279,22 @@ img {
 
   /* Animation */
   animation: text-blinking 3s 0s infinite alternate-reverse;
+  /* Various */
+
+}
+
+
+.paragraph_width {
+  /* Position */
+
+  /* block-model */
+  width: 40vw;
+  /* Typography */
+
+  /* Decoration */
+
+  /* Animation */
+
   /* Various */
 
 }

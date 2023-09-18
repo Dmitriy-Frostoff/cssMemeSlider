@@ -5,4 +5,5 @@
 @import './src/styles/base/common.css';
 @import './src/styles/layout/content-structure.css';
 @import './src/styles/components/header.css';
+@import './src/styles/components/carousel.css';
 @import './src/styles/components/footer.css';
