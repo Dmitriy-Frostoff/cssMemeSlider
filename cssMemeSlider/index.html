@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="cssMemeSlider, image slider, pure html + css slider, memes, Rolling Scopes SChool, RSSChool, stage 0">
+  <title>cssMemeSlider</title>
+  <!-- favicon start -->
+  <link rel="icon" href="./src/assets/images/icons/scared-cat64x64.ico" type="image/x-icon" sizes="64x64">
+  <link rel="icon" href="./src/assets/images/icons/scared-cat32x32.ico" type="image/x-icon" sizes="32x32">
+  <link rel="icon" href="./src/assets/images/icons/scared-cat16x16.ico" type="image/x-icon" sizes="16x16">
+   <!-- favicon end -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Fonts start -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <!-- Fonts end -->
+</head>
+<body>
+  <!-- header start -->
+  <header class="container layout-one-column header__container">
+    <h1 class="title-h1 text_blinking">Have fun with this cssMemeSlider!</h1>
+  </header>
+  <!-- header end -->
+  <!-- main start -->
+  <main>
+    <div class="container main__container">
+      <div class="layout-one-column carousel__container">
+        <div class="layout-multiple-columns carousel__wrapper">
+          <div class="layout-multiple-columns carousel__content-wrapper">
+            <div class="layout-multiple-columns carousel__buttons-container">
+              <label class="layout-one-column carousel__button" for="btn__0">
+                <input class="carousel__button-inner" type="radio" id="btn__0" name="carousel__radio-button" checked></input>
+              </label>
+              <label class="layout-one-column carousel__button" for="btn__1">
+                <input class="carousel__button-inner" type="radio" id="btn__1" name="carousel__radio-button"></input>
+              </label>
+              <label class="layout-one-column carousel__button" for="btn__2">
+                <input class="carousel__button-inner" type="radio" id="btn__2" name="carousel__radio-button"></input>
+              </label>
+              <label class="layout-one-column carousel__button" for="btn__3">
+                <input class="carousel__button-inner" type="radio" id="btn__3" name="carousel__radio-button"></input>
+              </label>
+              <label class="layout-one-column carousel__button" for="btn__4">
+                <input class="carousel__button-inner" type="radio" id="btn__4" name="carousel__radio-button"></input>
+              </label>
+            </div>
+            <div class="layout-multiple-columns carousel__content">
+              <div class="carousel__image" data-carousel-image="image__1"></div>
+              <div class="carousel__image" data-carousel-image="image__2"></div>
+              <div class="carousel__image" data-carousel-image="image__3"></div>
+              <div class="carousel__image" data-carousel-image="image__4"></div>
+              <div class="carousel__image" data-carousel-image="image__5"></div>
+            </div>
+            <div class="layout-multiple-columns carousel__description-wrapper">
+              <div class="layout-multiple-columns carousel__content-description">
+                <p class="paragraph-l paragraph_width" data-carousel-image-description="image-description__1">Little guy and frontend at first</p>
+                <p class="paragraph-l paragraph_width" data-carousel-image-description="image-description__2">Technical screning experienced person</p>
+                <p class="paragraph-l paragraph_width" data-carousel-image-description="image-description__3">Price for the book about JS</p>
+                <p class="paragraph-l paragraph_width" data-carousel-image-description="image-description__4">Bug struggling</p>
+                <p class="paragraph-l paragraph_width" data-carousel-image-description="image-description__5">Difference beetween junior and middle</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- main end -->
+  <!-- footer start -->
+  <footer class="container layout-one-column footer__container">
+    <ul class="layout-multiple-columns footer__list">
+      <li class="footer__item">&copy; 2023 Dmitriy Frostoff</li>
+      <li class="footer__item">
+          <a class="layout-one-column footer__link" href="https://github.com/Dmitriy-Frostoff" title="click to visit Dmitriy-Frostoff's GitHub" target="_blank">
+            <object data="./src/assets/svg/footer/github%20logo.svg" type="image/svg+xml"></object>
+            <span class="github-text">GitHub</span>
+          </a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link rsschool-logo" href="https://rs.school/js/" title="click to go to the RS School Course" target="_blank">
+          <object data="./src/assets/svg/footer/rs_school_js.svg" type="image/svg+xml"></object>
+        </a>
+      </li>
+    </ul>
+  </footer>
+  <!-- footer end -->
+</body>
+</html>

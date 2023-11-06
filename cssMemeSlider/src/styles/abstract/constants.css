@@ -1,0 +1,34 @@
+:root {
+  /* colors */
+  --color-background: #3F424E;
+  --color-border: #bbbab5;
+  --color-buttons: #5B77EE;
+  --color-light: #ffffff;
+  --color-interactive: #ffffff;
+  --color-highlight-light: #FFCD04;
+
+  /* for animations */
+  --blink-one: #60C738;
+  --blink-two: #9F38C7;
+  /* first image has translateX(0) */
+  /* image container width 90vw */
+  /* column gap between images 20vw */
+  /* => for sliding next image motion === 90vw + 20 vw - 0 vw = 110vw*/
+  /* => as sliding to the left so: -110vw*/
+  --carousel-motion-next-step: calc(-90vw - 20vw);
+  --carousel-motion-prev-step: calc(-40vw - 20vw);
+
+  /* Width */
+  --width-desktop-medium: 1440px;
+  --width-desktop-small: 1024px;
+  --width-mobile-max: 540px;
+  --width-mobile-small: 500px;
+
+  /* media padding */
+  /* 100vw === 1440px => 1vw === 14.4px */
+  /* 30px / 14.4px = 2.1wv */
+  --padding-content-desktop: 2.1vw; 
+  /* 100vw === 540px => 1vw === 5.4px */
+  /* 15px / 5.4px = 2.8wv */
+  --padding-content-mobile: 2.8vw;
+}

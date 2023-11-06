@@ -1,0 +1,133 @@
+@keyframes pulsation {
+  from {
+    transform: scaleX(0.95);
+  }
+
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes move-linear-from-right {
+  from {
+    right: -100%;
+    visibility: hidden;
+  }
+
+  1% {
+    right: 50%;
+    visibility: visible;
+  }
+
+  to {
+    right: 0%;
+    visibility: visible;
+  }
+}
+
+@keyframes move-linear-to-right {
+  from {
+    right: 0%;
+    visibility: visible;
+  }
+
+  1% {
+    right: -50%;
+    visibility: visible;
+  }
+
+  to {
+    right: -100%;
+    visibility: hidden;
+  }
+}
+
+@keyframes text-blinking {
+  from {
+    color: var(--blink-one);
+  }
+
+  50% {
+    color: var(--blink-two);
+  }
+
+  to {
+    color: var(--blink-one);
+  }
+}
+
+@keyframes light-text-scaling {
+  from {
+    /* transform: translateX(-105%); */ /* running storke pretty too :) */
+    transform: scale(0.95);
+  }
+
+  to {
+    /* transform: translateX(105%); */
+    transform: scale(1);
+  }
+}
+
+@keyframes text-scaling {
+  from {
+    /* transform: translateX(-105%); */ /* running storke pretty too :) */
+    transform: scale(0.8);
+  }
+
+  to {
+    /* transform: translateX(105%); */
+    transform: scale(1);
+  }
+}
+
+@keyframes text-line-through {
+  from {
+    text-decoration: none;
+    transform-origin: right;
+    transform: scaleX(0);
+  }
+
+  to {
+    text-decoration: line-through;
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+}
+
+@keyframes rotate-and-scaleX {
+  from {
+    rotate: 0deg;
+    transform: scaleX(1);
+  }
+
+  to {
+    rotate: 45deg;
+    transform: scaleX(1.5);
+  }
+}
+
+@keyframes pulsation {
+  from {
+    transform: scale(0.9);
+  }
+
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes smooth-visibility-change {
+  from {
+    display: none;
+    /* transform: scale(0); */
+  }
+
+  1% {
+    display: block;
+  }
+
+  to {
+    /* transform: scale(1); */
+    display: block;
+  }
+}

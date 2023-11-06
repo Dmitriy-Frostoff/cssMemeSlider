@@ -1,0 +1,19 @@
+.header__container {
+  /* Position */
+  
+  /* block-model */
+  width: 100%;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+  /* Typography */
+
+  /* Decoration */
+  background: var(--color-background);
+  /* Animation */
+
+  /* Various */
+
+}

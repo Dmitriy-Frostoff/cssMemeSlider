@@ -1,0 +1,10 @@
+@import './src/styles/base/normalize.css';
+@import './src/styles/abstract/constants.css';
+@import './src/styles/abstract/animations.css';
+@import './src/styles/base/typography.css';
+@import './src/styles/base/common.css';
+@import './src/styles/layout/content-structure.css';
+@import './src/styles/components/header.css';
+@import './src/styles/components/carousel.css';
+@import './src/styles/components/carousel-motion.css';
+@import './src/styles/components/footer.css';

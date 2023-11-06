@@ -1,0 +1,39 @@
+.carousel__buttons-container:has(#btn__0:checked) ~ .carousel__content {
+  transform: translateX(0);
+}
+
+.carousel__buttons-container:has(#btn__0:checked) ~ .carousel__description-wrapper > .carousel__content-description {
+  transform: translateX(0);
+}
+
+.carousel__buttons-container:has(#btn__1:checked) ~ .carousel__content {
+  transform: translateX(calc(var(--carousel-motion-next-step) * 1));
+}
+
+.carousel__buttons-container:has(#btn__1:checked) ~ .carousel__description-wrapper > .carousel__content-description {
+  transform: translateX(calc(var(--carousel-motion-prev-step) * 1));
+}
+
+.carousel__buttons-container:has(#btn__2:checked) ~ .carousel__content {
+  transform: translateX(calc(var(--carousel-motion-next-step) * 2));
+}
+
+.carousel__buttons-container:has(#btn__2:checked) ~ .carousel__description-wrapper > .carousel__content-description {
+  transform: translateX(calc(var(--carousel-motion-prev-step) * 2));
+}
+
+.carousel__buttons-container:has(#btn__3:checked) ~ .carousel__content {
+  transform: translateX(calc(var(--carousel-motion-next-step) * 3));
+}
+
+.carousel__buttons-container:has(#btn__3:checked) ~ .carousel__description-wrapper > .carousel__content-description {
+  transform: translateX(calc(var(--carousel-motion-prev-step) * 3));
+}
+
+.carousel__buttons-container:has(#btn__4:checked) ~ .carousel__content {
+  transform: translateX(calc(var(--carousel-motion-next-step) * 4));
+}
+
+.carousel__buttons-container:has(#btn__4:checked) ~ .carousel__description-wrapper > .carousel__content-description {
+  transform: translateX(calc(var(--carousel-motion-prev-step) * 4));
+}

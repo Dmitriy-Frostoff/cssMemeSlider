@@ -1,0 +1,11 @@
+:root {
+  /* font family */
+  --inter-font-family: 'Inter', sans-serif;
+  --permanent-marker-font-family: 'Permanent Marker', cursive;
+  /* font-size */
+  --title-h1_desktop: 2.5vh;
+  --title-h1_mobile: 4vh;
+  
+  --text-fsize_desktop: 1.5vh;
+  --text-fsize_mobile: 2vh;
+}
